@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: sans-serif;
+    background-color: #222831;
+    height: 100vh;
+    color: #EEEEEE;
+}
+
+.navbar {
+    background-color: #31363F;
+}
+
+.navbar-brand {
+    color: #EEEEEE;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar>a:visited,
+a:focus,
+a:link,
+a:active {
+    color: rgba(238, 238, 238);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgba(238, 238, 238, 0.9);
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 5rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Baskervville SC", serif;
+    font-size: 20px;
+}
+
+.heading {
+    color: #76ABAE;
+}
+
+.btn {
+    background-color: #76ABAE;
+}
+
+.tit-img {
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    animation: fadeInOut 1.8s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgba(118, 171, 174, 0.9);
+    color: #222831;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.card-title {
+    animation: fadeInOut 1.5s ease-in-out;
+}
+
+.card-text {
+    margin-left: 0.5rem;
+    animation: fadeInOut 1.5s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
